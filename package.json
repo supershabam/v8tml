@@ -1,0 +1,22 @@
+{
+  "name": "v8tml",
+  "version": "0.0.0",
+  "description": "Does an html dump of v8 profiling data, for your health",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/supershabam/v8tml.git"
+  },
+  "keywords": [
+    "profile",
+    "v8",
+    "debug"
+  ],
+  "author": "Ian Hansen",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "ddd331cd4791105637b0876376dfb0c4d2ca3afd"
+}
