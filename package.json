@@ -18,5 +18,9 @@
   "author": "Ian Hansen",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "ddd331cd4791105637b0876376dfb0c4d2ca3afd"
+  "gitHead": "ddd331cd4791105637b0876376dfb0c4d2ca3afd",
+  "dependencies": {
+    "v8tools": "~0.2.2",
+    "jade": "~0.28.2"
+  }
 }

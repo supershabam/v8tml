@@ -1,0 +1,22 @@
+mixin tree(root)
+  ul
+    mixin node(root, 0)
+mixin node(node, depth)
+  li.node
+    span.label #{node.cpuUsage}% - #{node.functionName || '(unknown function)'} in #{node.scriptResourceName || '(unknown script)'} on line #{node.lineNumber || '(unknown line number)'}
+  if node.children.length
+    li.children
+      ul
+        each child in node.children
+          mixin node(child, depth + 1)
+
+!!! 5
+html(lang="en")
+  head
+    title v8tml
+    style
+      ul {
+        list-style: none;
+      }
+  body
+    mixin tree(tree)
